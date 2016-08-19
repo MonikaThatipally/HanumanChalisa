@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/hanuman"
+    android:weightSum="1">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <Button
+            android:id="@+id/english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="@string/english"
+            android:textColor="#dc4025"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp" />
+        <ToggleButton
+            android:id="@+id/tplay"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/play"
+            android:layout_marginLeft="2dp"
+            android:textOn=""
+            android:textOff=""
+            android:enabled="true"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+
+        <Button
+            android:id="@+id/hindi"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="end"
+            android:text="@string/hin"
+            android:textColor="#dc4025"
+            android:textSize="25sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_alignTop="@+id/english"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="center"
+            android:layout_marginTop="1dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="play"
+            android:id="@+id/htvid"
+            android:layout_toEndOf="@+id/tplay"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#3fb4e3"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/hinnote"
+            android:textColor="#dc4025"
+            android:textSize="35sp"
+            android:textAlignment="center" />
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

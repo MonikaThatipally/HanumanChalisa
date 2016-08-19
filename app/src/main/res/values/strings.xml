@@ -1,0 +1,565 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore= "MissingTranslation" >
+
+    <string name="app_name">HanumanChalisa</string>
+
+<string name="note">
+        Doha
+
+\n Shreeguru charana saroja raja nija mana mukura sudhaari |
+baranau raghubara bimala jasu jo daayak phala chaari ||
+        Buddhiheena tanu jaanikai sumirau pavanakumāra |
+Bal buddhi bidyā dehu mohi harahu kalesa bikāra ||
+
+       \n Chopai
+
+\n Jaya hanumāna Jnaana guna saagara
+
+| Jaya kapeesha tihu loka ujaagara || 1 ||
+
+
+\nRāma dūta atulita bala dhāmā
+| Anjani putra pavanasuta nāmā || 2 ||
+
+
+\nMahābīra bikrama bajarangī।
+ | kumati nivāra sumati ke sangī || 3 ||
+
+
+\nKaanchana barana birāja subesā
+| kānana kundala kunchita keshā || 4 ||
+
+
+\n Hātha bajra au dhvajā birājai
+| kāndhe mūnji janeū sājai || 5 ||
+
+\n Shankara suvana kesarī nandana
+| Teja pratāpa mahā jaga bandana || 6 ||
+
+\n Bidyāvāna gunī ati chātura।
+| Rāma kāja karibe ko ātura || 7 ||
+
+
+\n Prabhu charitra sunibe ko rasiyā
+| rāma lakhana sītā mana basiyā || 8 ||
+
+
+\n Sūkshma rūpa dhari siyahi dikhāvā
+| bikata rūpa dhari lanka jarāvā || 9 ||
+
+
+\n Bhīma rūpa dhari asura samhāre
+| rāmachandra ke kāja samvāre || 10 ||
+
+      \n lāya sanjīvani lakhana jiyāe
+| shrī raghubīra harashi ura lāye || 11 ||
+
+    \n Raghupati kīnhī bahut badāī
+| tum mama priya bharata hi sama bhāī    || 12 ||
+
+      \n sahasa badana tumharo jasa gāvai
+| asa kahi shrīpati kantha lagāvai  || 13 ||
+
+       \n  Sanakādika brahmādi munīsā
+| nārada sārada sahita ahīsā || 14 ||
+
+     \n   Yama kubera dikpāla jahā te
+| kavi kobida kahi sakai kahā te  || 15 ||
+
+     \n  Tuma upakāra sugrīvahi kīnhā
+| rāam milāya rājapada dīnhā   || 16 ||
+
+     \n Tumharo mantra vibhīshana mānā
+| lankeshvara bhae saba jaga jānā    || 17 ||
+
+     \n  Yuga sahasra yojana para bhānū
+| līlyo tāhi madhura phala jānū   || 18 ||
+
+    \n   Prabhu mudrikā meli mukha māhī
+| jaladhi lānghi gaye acharaja nāhī   || 19 ||
+
+     \n   Durgama kāja jagata ke jete
+| sugama anugraha tumhare tete  || 20 ||
+
+      \n  Rāma duāre tuma rakhavāre
+| hota na āgyā binu paisāre  || 21 ||
+
+       \n  Saba sukha lahai tumhārī saranā
+| tuma rakshaka kāhū ko daranā || 22 ||
+
+
+
+     \n  āpan tej samhāro āpai
+| tino lok hānka te kāpai   || 23 ||
+
+       \n  bhūta pishācha nikata nahi āvai
+| mahābīra jaba nāma sunāvai || 24 ||
+
+    \n   Nāsai roga harai saba pīrā
+| japata nirantara hanumata bīrā   || 25 ||
+
+     \n  Sankata te hanumāna chhudāvai
+| mana krama vachana dhyāna jo lāvai   || 26 ||
+
+      \n  Saba para rāma tapasvī rājā
+| tina ke kāja sakala tuma sājā  || 27 ||
+
+     \n   Aura manoratha jo koī lāvai
+| Soi amita jīvana phala pāvai  || 28 ||
+
+     \n  chāro juga pratāpa tumhārā
+| hai parasiddha jagata ujiyārā   || 29 ||
+
+      \n  Sādhu santa ke tuma rakhavāre
+| asura nikandana rāma dulāre  || 30 ||
+
+     \n  Ashta siddhi nava nidhi ke dātā
+| asa bara dīnha jānakī mātā || 31 ||
+
+    \n   Rāma rasāyana tumhare pāsā
+| sadā raho raghupati ke dāsā   || 32 ||
+
+       \n Tumhare bhajana rāma ko pāvai
+| Janama janama ke dukha bisarāvai || 33 ||
+
+     \n   Anta kāla raghupati pura jāī
+| jahā janma hari bhakta kahāī || 34 ||
+
+      \n  Aura devatā chitta na dharaī
+| hanumata sei sarva sukha karaī || 35 ||
+
+      \n  Sankata katai mitai saba pīrā
+| jo sumirai hanumata balabīrā || 36 ||
+
+     \n   Jaya jaya jaya hanumāna gosāī
+| kripā karahu gurudeva kī nāī || 37 ||
+
+      \n  Jo shata bāra pāthakar koī
+| chhūtahi bandi mahāsukha hoī || 38 ||
+
+    \n  Jo yaha padhai hanumāna chālīsā
+| hoya siddhi sākhī gaurīsā   || 39 ||
+
+      \n Tulasīdāsa sadā hari cherā
+| kījai nātha hridaya mama dherā  || 40 ||
+
+    </string>
+    <string name="hin">हिन्दी </string>
+    <string name="tel">తెలుగు</string>
+    <string name="english">English</string>
+
+    <string name="Engnote">
+        Doha
+
+\n Shri Guru Charan Sarooja-raj Nija manu Mukura Sudhaari |
+Baranau Rahubhara Bimala Yasha Jo Dayaka Phala Chari ||
+Budhee-Heen Thanu Jannikay Sumirow Pavana Kumara |
+Bala-Budhee Vidya Dehoo Mohee Harahu Kalesha Vikaara ||
+       \n Chopai
+
+\n Jai Hanuman gyan gun sagar |
+Jai Kapis tihun lok ujagar || 1 ||
+
+
+\n Ram doot atulit bal dhama |
+Anjaani-putra Pavan sut nama || 2 ||
+
+
+\n Mahabir Bikram Bajrangi |
+Kumati nivar sumati Ke sangi || 3 ||
+
+
+\n Kanchan varan viraj subesa |
+
+Kanan Kundal Kunchit Kesha || 4 ||
+
+
+\n Hath Vajra Aur Dhuvaje Viraje |
+Kaandhe moonj janehu sajai || 5 ||
+
+\n Sankar suvan kesri Nandan |
+Tej prataap maha jag vandan || 6 ||
+
+\n Vidyavaan guni ati chatur
+Ram kaj karibe ko aatur || 7 ||
+
+
+\n Prabu charitra sunibe-ko rasiya
+Ram Lakhan Sita man Basiya || 8 ||
+
+
+\n Sukshma roop dhari Siyahi dikhava
+Vikat roop dhari lank jarava || 9 ||
+
+
+\n Bhima roop dhari asur sanghare
+Ramachandra ke kaj sanvare || 10 ||
+
+      \n Laye Sanjivan Lakhan Jiyaye
+Shri Raghuvir Harashi ur laye || 11 ||
+
+    \n Raghupati Kinhi bahut badai
+Tum mam priye Bharat-hi-sam bhai || 12 ||
+
+      \n Sahas badan tumharo yash gaave
+Asa-kahi Shripati kanth lagaave || 13 ||
+
+       \n Sankadhik Brahmaadi Muneesa
+Narad-Sarad sahit Aheesa || 14 ||
+
+     \n Yam Kuber Digpaal Jahan te
+Kavi kovid kahi sake kahan te || 15 ||
+
+     \n Tum upkar Sugreevahin keenha
+Ram milaye rajpad deenha || 16 ||
+
+     \n Tumharo mantra Vibheeshan maana
+Lankeshwar Bhaye Sub jag jana || 17 ||
+
+     \n Yug sahastra jojan par Bhanu
+Leelyo tahi madhur phal janu || 18 ||
+
+    \n Prabhu mudrika meli mukh mahee
+Jaladhi langhi gaye achraj nahee || 19 ||
+
+     \n Durgaam kaj jagath ke jete
+Sugam anugraha tumhre tete || 20 ||
+
+      \n Ram dwaare tum rakhvare
+Hoat na agya binu paisare || 21 ||
+
+       \n Sub sukh lahae tumhari sar na
+Tum rakshak kahu ko dar naa || 22 ||
+
+     \n Aapan tej samharo aapai
+Teenhon lok hank te kanpai || 23 ||
+
+       \n Bhoot pisaach Nikat nahin aavai
+Mahavir jab naam sunavae || 24 ||
+
+    \n Nase rog harae sab peera
+Japat nirantar Hanumant beera || 25 ||
+
+     \n Sankat se Hanuman chudavae
+Man Karam Vachan dyan jo lavai || 26 ||
+
+      \n Sab par Ram tapasvee raja
+Tin ke kaj sakal Tum saja || 27 ||
+
+     \n Aur manorath jo koi lavai
+Sohi amit jeevan phal pavai || 28 ||
+
+     \n Charon Yug partap tumhara
+Hai persidh jagat ujiyara || 29 ||
+
+      \n Sadhu Sant ke tum Rakhware
+Asur nikandan Ram dulhare || 30 ||
+
+     \n Ashta-sidhi nav nidhi ke dhata
+As-var deen Janki mata || 31 ||
+
+    \n Ram rasayan tumhare pasa
+Sada raho Raghupati ke dasa || 32 ||
+
+       \n Tumhare bhajan Ram ko pavai
+Janam-janam ke dukh bisraavai || 33 ||
+
+     \n Anth-kaal Raghuvir pur jayee
+Jahan janam Hari-Bakht Kahayee || 34 ||
+
+      \n Aur Devta Chit na dharehi
+Hanumanth se hi sarve sukh karehi || 35 ||
+
+      \n Sankat kate-mite sab peera
+Jo sumirai Hanumat Balbeera || 36 ||
+
+     \n Jai Jai Jai Hanuman Gosahin
+Kripa Karahu Gurudev ki nyahin || 37 ||
+
+      \n Jo sat bar path kare kohi
+Chutehi bandhi maha sukh hohi || 38 ||
+
+    \n Jo yah padhe Hanuman Chalisa
+Hoye siddhi sakhi Gaureesa || 39 ||
+
+      \n Tulsidas sada hari chera
+Keejai Nath Hridaye mein dera || 40 ||
+
+
+
+
+
+    </string>
+    <string name="telnote">
+
+దోహా
+\n  శ్రీ గురు చరన సరోజ రజ నిజమను ముకురు సుధారి |
+బరనఊ రఘుబర బిమల జసు జో దాయకు ఫల చారి ||
+బుద్ధిహీన నను జానికే సుమిరౌ పవన కుమార |
+బల బుద్ధి విద్యా దేహు మోహి హరహు కలేస బికార్ ||
+
+\nచౌపాఈ
+\nజయ హనుమాన ఙ్ఞాన గుణ సాగర |
+జయ కపీశ తిహు లోక ఉజాగర || 1 ||
+
+\nరామదూత అతులిత బలధామా |
+అంజని పుత్ర పవనసుత నామా || 2 ||
+
+\nమహావీర విక్రమ బజరంగీ |
+కుమతి నివార సుమతి కే సంగీ ||3 ||
+
+\nకంచన వరణ విరాజ సువేశా |
+కానన కుండల కుంచిత కేశా || 4 ||
+
+\nహాథవజ్ర ఔ ధ్వజా విరాజై |
+కాంథే మూంజ జనేఊ సాజై || 5||
+
+\nశంకర సువన కేసరీ నందన |
+తేజ ప్రతాప మహాజగ వందన || 6 ||
+
+\nవిద్యావాన గుణీ అతి చాతుర |
+రామ కాజ కరివే కో ఆతుర || 7 ||
+
+\nప్రభు చరిత్ర సునివే కో రసియా |
+రామలఖన సీతా మన బసియా || 8||
+
+\nసూక్ష్మ రూపధరి సియహిం దిఖావా |
+వికట రూపధరి లంక జరావా || 9 ||
+
+\nభీమ రూపధరి అసుర సంహారే |
+రామచంద్ర కే కాజ సంవారే || 10 ||
+
+\nలాయ సంజీవన లఖన జియాయే |
+శ్రీ రఘువీర హరషి ఉర లాయే || 11 ||
+
+\nరఘుపతి కీన్హీ బహుత బడాఈ |
+తుమ మమ ప్రియ భరతహి సమ భాఈ || 12 ||
+
+\nసహస వదన తుమ్హరో జాస గావై |
+అస కహి శ్రీపతి కంఠ లగావై || 13 ||
+
+\nసనకాదిక బ్రహ్మాది మునీశా |
+నారద శారద సహిత అహీశా || 14 ||
+
+\nజమ(యమ) కుబేర దిగపాల జహాం తే |
+కవి కోవిద కహి సకే కహాం తే || 15 ||
+
+\nతుమ ఉపకార సుగ్రీవహి కీన్హా |
+రామ మిలాయ రాజపద దీన్హా || 16 ||
+
+\nతుమ్హరో మంత్ర విభీషణ మానా |
+లంకేశ్వర భఏ సబ జగ జానా || 17 ||
+
+\nయుగ సహస్ర యోజన పర భానూ |
+లీల్యో తాహి మధుర ఫల జానూ || 18 ||
+
+\nప్రభు ముద్రికా మేలి ముఖ మాహీ |
+జలధి లాంఘి గయే అచరజ నాహీ || 19 ||
+
+\nదుర్గమ కాజ జగత కే జేతే |
+సుగమ అనుగ్రహ తుమ్హరే తేతే || 20 ||
+
+\nరామ దుఆరే తుమ రఖవారే |
+హోత న ఆఙ్ఞా బిను పైసారే || 21 ||
+
+\nసబ సుఖ లహై తుమ్హారీ శరణా |
+తుమ రక్షక కాహూ కో డర నా || 22 ||
+
+\nఆపన తేజ తుమ్హారో ఆపై |
+తీనోం లోక హాంక తే కాంపై || 23 ||
+
+\nభూత పిశాచ నికట నహి ఆవై |
+మహవీర జబ నామ సునావై || 24 ||
+
+\nనాసై రోగ హరై సబ పీరా |
+జపత నిరంతర హనుమత వీరా || 25 ||
+
+\nసంకట తేం(సేం) హనుమాన ఛుడావై |
+మన క్రమ వచన ధ్యాన జో లావై || 26 ||
+
+\nసబ పర రామ తపస్వీ రాజా |
+తినకే కాజ సకల తుమ సాజా || 27 ||
+
+\nఔర మనోరధ జో కోఇ లావై |
+సోఈ అమిత జీవన ఫల పావై || 28 ||
+
+\nచారో యుగ పరితాప తుమ్హారా |
+హై పరసిద్ధ జగత ఉజియారా || 29 ||
+
+\nసాధు సంత కే తుమ రఖవారే |
+అసుర నికందన రామ దులారే || 30 ||
+
+\nఅష్ఠసిద్ధి నౌ(నవ) నిధి కే దాతా |
+అస వర దీన్హ జానకీ మాతా || 31 ||
+
+\nరామ రసాయన తుమ్హారే పాసా |
+సాద రహో రఘుపతి కే దాసా || 32 ||
+
+\nతుమ్హరే భజన రామకో పావై |
+జనమ జనమ కే దుఖ బిసరావై || 33 ||
+
+\nఅంత కాల రఘువర పురజాఈ |
+జహాం జన్మ హరిభక్త కహాఈ || 34 ||
+
+\nఔర దేవతా చిత్త న ధరఈ |
+హనుమత సేఇ సర్వ సుఖ కరఈ || 35 ||
+
+\nసంకట కటై మిటై సబ పీరా |
+జో సుమిరై హనుమత బల వీరా || 36 ||
+
+\nజై జై జై హనుమాన గోసాఈ |
+కృపా కరో గురుదేవ కీ నాఈ || 37 ||
+
+\nజో శత వార పాఠ కర కోఈ |
+ఛూటహి బంది మహా సుఖ హోఈ || 38 ||
+
+\nజో యహ పడై హనుమాన చాలీసా |
+హోయ సిద్ధి సాఖీ గౌరీశా || 39 ||
+
+\nతులసీదాస సదా హరి చేరా |
+కీజై నాథ హృదయ మహ డేరా || 40 ||
+
+
+</string>
+     <string name="hinnote">
+
+॥दोहा॥
+
+\n
+
+श्रीगुरु चरन सरोज रज निज मनु मुकुरु सुधारि ।
+बरनउँ रघुबर बिमल जसु जो दायकु फल चारि ॥
+
+बुद्धिहीन तनु जानिके सुमिरौं पवन-कुमार ।
+बल बुधि बिद्या देहु मोहिं हरहु कलेस बिकार ॥
+
+        \n ॥चौपाई॥
+
+\n जय हनुमान ज्ञान गुन सागर ।
+जय कपीस तिहुँ लोक उजागर ॥१॥
+
+\n राम दूत अतुलित बल धामा ।
+अञ्जनि-पुत्र पवनसुत नामा ॥२॥
+
+\n महाबीर बिक्रम बजरङ्गी ।
+कुमति निवार सुमति के सङ्गी ॥३॥
+
+\n कञ्चन बरन बिराज सुबेसा ।
+कानन कुण्डल कुञ्चित केसा ॥४॥
+
+\n हाथ बज्र औ ध्वजा बिराजै ।
+काँधे मूँज जनेउ साजै ॥५॥
+
+\n सङ्कर सुवन केसरीनन्दन ।
+तेज प्रताप महा जग बन्दन ॥६॥
+
+\n बिद्यावान गुनी अति चातुर ।
+राम काज करिबे को आतुर ॥७॥
+
+\n प्रभु चरित्र सुनिबे को रसिया ।
+राम लखन सीता मन बसिया ॥८॥
+
+\n सूक्ष्म रूप धरि सियहिं दिखावा ।
+बिकट रूप धरि लङ्क जरावा ॥९॥
+
+\n भीम रूप धरि असुर सँहारे ।
+रामचन्द्र के काज सँवारे ॥१०॥
+
+\n लाय सञ्जीवन लखन जियाये ।
+श्रीरघुबीर हरषि उर लाये ॥११॥
+
+\n रघुपति कीह्नी बहुत बड़ाई ।
+तुम मम प्रिय भरतहि सम भाई ॥१२॥
+
+\n सहस बदन तुह्मारो जस गावैं ।
+अस कहि श्रीपति कण्ठ लगावैं ॥१३॥
+
+\n सनकादिक ब्रह्मादि मुनीसा ।
+नारद सारद सहित अहीसा ॥१४॥
+
+\n जम कुबेर दिगपाल जहाँ ते ।
+कबि कोबिद कहि सके कहाँ ते ॥१५॥
+
+\n तुम उपकार सुग्रीवहिं कीह्ना ।
+राम मिलाय राज पद दीह्ना ॥१६॥
+
+\n तुह्मरो मन्त्र बिभीषन माना ।
+लङ्केस्वर भए सब जग जाना ॥१७॥
+
+\n जुग सहस्र जोजन पर भानु ।
+लील्यो ताहि मधुर फल जानू ॥१८॥
+
+\n प्रभु मुद्रिका मेलि मुख माहीं ।
+जलधि लाँघि गये अचरज नाहीं ॥१९॥
+
+\n दुर्गम काज जगत के जेते ।
+सुगम अनुग्रह तुह्मरे तेते ॥२०॥
+
+\n राम दुआरे तुम रखवारे ।
+होत न आज्ञा बिनु पैसारे ॥२१॥
+
+\n सब सुख लहै तुह्मारी सरना ।
+तुम रच्छक काहू को डर ना ॥२२॥
+
+\n आपन तेज सह्मारो आपै ।
+तीनों लोक हाँक तें काँपै ॥२३॥
+
+\n भूत पिसाच निकट नहिं आवै ।
+महाबीर जब नाम सुनावै ॥२४॥
+
+\n नासै रोग हरै सब पीरा ।
+जपत निरन्तर हनुमत बीरा ॥२५॥
+
+\n सङ्कट तें हनुमान छुड़ावै ।
+मन क्रम बचन ध्यान जो लावै ॥२६॥
+
+\n सब पर राम तपस्वी राजा ।
+तिन के काज सकल तुम साजा ॥२७॥
+
+\n और मनोरथ जो कोई लावै ।
+सोई अमित जीवन फल पावै ॥२८॥
+
+\n चारों जुग परताप तुह्मारा ।
+है परसिद्ध जगत उजियारा ॥२९॥
+
+\n साधु सन्त के तुम रखवारे ।
+असुर निकन्दन राम दुलारे ॥३०॥
+
+\n अष्टसिद्धि नौ निधि के दाता ।
+अस बर दीन जानकी माता ॥३१॥
+
+\n राम रसायन तुह्मरे पासा ।
+सदा रहो रघुपति के दासा ॥३२॥
+
+\n तुह्मरे भजन राम को पावै ।
+जनम जनम के दुख बिसरावै ॥३३॥
+
+\n अन्त काल रघुबर पुर जाई ।
+जहाँ जन्म हरिभक्त कहाई ॥३४॥
+
+\n और देवता चित्त न धरई ।
+हनुमत सेइ सर्ब सुख करई ॥३५॥
+
+\n सङ्कट कटै मिटै सब पीरा ।
+जो सुमिरै हनुमत बलबीरा ॥३६॥
+
+\n जय जय जय हनुमान गोसाईं ।
+कृपा करहु गुरुदेव की नाईं ॥३७॥
+
+\n जो सत बार पाठ कर कोई ।
+छूटहि बन्दि महा सुख होई ॥३८॥
+
+\n जो यह पढ़ै हनुमान चालीसा ।
+होय सिद्धि साखी गौरीसा ॥३९॥
+
+\n तुलसीदास सदा हरि चेरा ।
+कीजै नाथ हृदय महँ डेरा ॥४०॥
+
+
+</string>
+
+
+
+</resources>
+
