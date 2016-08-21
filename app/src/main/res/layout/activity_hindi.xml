@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@drawable/hanuman"
+    android:background="@drawable/om"
     android:weightSum="1">
 
 

@@ -1,10 +1,14 @@
 package com.thatipally.monikathatipally.hanumanchalisa;
 
+import android.app.ActionBar;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -29,7 +33,8 @@ public class Telugu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_telugu);
-        playbt = (ToggleButton) findViewById(R.id.play);
+
+  playbt = (ToggleButton) findViewById(R.id.play);
          tv=(TextView)findViewById(R.id.tvid);
 
         mpobj = MediaPlayer.create(Telugu.this,R.raw.hanumanaudio);
@@ -122,6 +127,7 @@ public class Telugu extends AppCompatActivity {
 
         }
     }
+
 
 }
 
