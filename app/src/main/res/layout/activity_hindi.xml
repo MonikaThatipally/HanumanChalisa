@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@drawable/om"
     android:weightSum="1">
 
 
@@ -14,15 +13,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:background="#ffffff">
 
 
         <Button
-            android:id="@+id/english"
+            android:id="@+id/hinid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="end"
-            android:text="@string/english"
+            android:text="@string/hin"
             android:textColor="#dc4025"
             android:textSize="20sp"
             android:textAlignment="center"
@@ -43,16 +43,16 @@
 
 
         <Button
-            android:id="@+id/hindi"
+            android:id="@+id/hinengid"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:gravity="end"
-            android:text="@string/hin"
+            android:text="@string/english"
             android:textColor="#dc4025"
-            android:textSize="25sp"
+            android:textSize="15sp"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="5dp"
-            android:layout_alignTop="@+id/english"
+            android:layout_alignTop="@+id/hinid"
             android:layout_alignParentEnd="true"
             android:textAlignment="center"
             android:layout_marginTop="1dp" />
@@ -65,7 +65,7 @@
             android:layout_toEndOf="@+id/tplay"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="5dp"
-            android:textColor="#3fb4e3"
+            android:textColor="#fa030303"
             android:textSize="20dp" />
 
     </RelativeLayout>
@@ -73,7 +73,8 @@
 
     <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@drawable/om">
 
 
         <TextView

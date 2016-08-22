@@ -5,22 +5,22 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@drawable/om"
     android:weightSum="1">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:background="#ffffff">
 
 
         <Button
-            android:id="@+id/tenglish"
+            android:id="@+id/telid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="end"
-            android:text="@string/english"
+            android:text="@string/tel"
             android:textColor="#dc4025"
             android:textSize="20sp"
             android:layout_marginLeft="5dp"
@@ -47,15 +47,15 @@
 
 
         <Button
-            android:id="@+id/ttelugu"
+            android:id="@+id/engid"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:gravity="end"
-            android:text="@string/tel"
+            android:text="@string/english"
             android:textColor="#dc4025"
-            android:textSize="25sp"
+            android:textSize="15sp"
             android:textAlignment="center"
-            android:layout_alignTop="@+id/tenglish"
+            android:layout_alignTop="@+id/telid"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="1dp"
             android:layout_marginRight="5dp"
@@ -71,7 +71,7 @@
             android:layout_toEndOf="@+id/play"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="5dp"
-            android:textColor="#3fb4e3"
+            android:textColor="#fa030303"
             android:textSize="20dp"
             />
 
@@ -79,7 +79,8 @@
 
     <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@drawable/om">
     <TextView
         android:id="@+id/tnews"
         android:layout_width="match_parent"

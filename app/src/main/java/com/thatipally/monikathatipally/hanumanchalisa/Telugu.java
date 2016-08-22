@@ -18,7 +18,7 @@ import java.util.Locale;
 
 public class Telugu extends AppCompatActivity {
 
-    Button telugu, english;
+    Button englang, tellang;
     String currentLanguage;
     TextView news;
     Typeface teluguFont;
@@ -34,7 +34,10 @@ public class Telugu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_telugu);
 
-  playbt = (ToggleButton) findViewById(R.id.play);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
+        playbt = (ToggleButton) findViewById(R.id.play);
          tv=(TextView)findViewById(R.id.tvid);
 
         mpobj = MediaPlayer.create(Telugu.this,R.raw.hanumanaudio);
@@ -59,51 +62,28 @@ public class Telugu extends AppCompatActivity {
 
         currentLanguage = "";
 
-        telugu = (Button) findViewById(R.id.ttelugu);
-        english = (Button) findViewById(R.id.tenglish);
-
         engFont = Typeface.createFromAsset(getAssets(), "fonts/Gidugu.ttf");
-
-        news = (TextView) findViewById(R.id.tnews);
-        news.setText(R.string.note);
-        news.setTypeface(engFont);
-
         teluguFont = Typeface.createFromAsset(getAssets(), "fonts/Gidugu.ttf");
 
-        telugu.setTypeface(teluguFont);
-
-        telugu.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
+        englang = (Button) findViewById(R.id.engid);
+        tellang = (Button) findViewById(R.id.telid);
+        tellang.setTypeface(teluguFont);
 
 
-                currentLanguage = "te";
-                Locale locale = new Locale(currentLanguage);
-                Locale.setDefault(locale);
 
-                System.out.println("My current language: "
-                        + Locale.getDefault());
+        news = (TextView) findViewById(R.id.tnews);
+        news.setText(R.string.telnote);
+        news.setTypeface(teluguFont);
 
-                config = new Configuration();
-                config.locale = locale;
-                getBaseContext().getResources().updateConfiguration(config,
-                        getBaseContext().getResources().getDisplayMetrics());
-
-                news.setText(R.string.telnote);
-                news.setTypeface(teluguFont);
-            }
-        });
-
-        english.setOnClickListener(new View.OnClickListener() {
+        englang.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
+
 
                 currentLanguage = "en";
                 Locale locale = new Locale(currentLanguage);
                 Locale.setDefault(locale);
-
 
                 System.out.println("My current language: "
                         + Locale.getDefault());
@@ -117,6 +97,29 @@ public class Telugu extends AppCompatActivity {
                 news.setTypeface(engFont);
             }
         });
+
+        tellang.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                currentLanguage = "te";
+                Locale locale = new Locale(currentLanguage);
+                Locale.setDefault(locale);
+
+
+                System.out.println("My current language: "
+                        + Locale.getDefault());
+
+                config = new Configuration();
+                config.locale = locale;
+                getBaseContext().getResources().updateConfiguration(config,
+                        getBaseContext().getResources().getDisplayMetrics());
+
+                news.setText(R.string.telnote);
+                news.setTypeface(teluguFont);
+            }
+        });
     }
     public void onDestroy() {
 
@@ -127,6 +130,16 @@ public class Telugu extends AppCompatActivity {
 
         }
     }
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            // Respond to the action bar's Up/Home button
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
 
 
 }

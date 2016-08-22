@@ -11,12 +11,20 @@
         <activity android:name="com.thatipally.monikathatipally.hanumanchalisa.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.thatipally.monikathatipally.hanumanchalisa.Telugu" />
-        <activity android:name="com.thatipally.monikathatipally.hanumanchalisa.Hindi"></activity>
+
+        <activity android:name="com.thatipally.monikathatipally.hanumanchalisa.Telugu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thatipally.monikathatipally.hanumanchalisa.MainActivity" />
+        </activity>
+        <activity android:name="com.thatipally.monikathatipally.hanumanchalisa.Hindi">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thatipally.monikathatipally.hanumanchalisa.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

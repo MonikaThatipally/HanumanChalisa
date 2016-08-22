@@ -3,8 +3,10 @@ package com.thatipally.monikathatipally.hanumanchalisa;
 import android.content.res.Configuration;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -28,6 +30,10 @@ public class Hindi extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hindi);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
         hinplaybt = (ToggleButton) findViewById(R.id.tplay);
         htv=(TextView)findViewById(R.id.htvid);
 
@@ -52,16 +58,17 @@ public class Hindi extends AppCompatActivity {
 
         hcurrentLanguage = "";
 
-        hindi = (Button) findViewById(R.id.hindi);
-        henglish = (Button) findViewById(R.id.english);
         hengFont = Typeface.createFromAsset(getAssets(), "fonts/Gidugu.ttf");
+        hindiFont = Typeface.createFromAsset(getAssets(), "fonts/anandmurti.ttf");
+
+        hindi = (Button) findViewById(R.id.hinid);
+        hindi.setTypeface(hindiFont);
+        henglish = (Button) findViewById(R.id.hinengid);
+
 
         hnews = (TextView) findViewById(R.id.news);
-        hnews.setText(R.string.Engnote);
-        hnews.setTypeface(hengFont);
-
-        hindiFont = Typeface.createFromAsset(getAssets(), "fonts/anandmurti.ttf");
-        hindi.setTypeface(hindiFont);
+        hnews.setText(R.string.hinnote);
+        hnews.setTypeface(hindiFont);
 
         hindi.setOnClickListener(new View.OnClickListener() {
 
@@ -119,6 +126,18 @@ public class Hindi extends AppCompatActivity {
 
         }
     }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            // Respond to the action bar's Up/Home button
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+
 }
 
 
